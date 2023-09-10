@@ -8,25 +8,46 @@ body{
 
 a{
     text-decoration: none;
-    color: white;
+    color: #3882F6;
 }
 
 button{
     width: 80px;
     height: 30px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    border-style: none;
+    color: white;
 }
+
+.actiondiv button{
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
 
 #husky{
     width: 400px;
     height: auto;
+    margin: 26px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #3882F6;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: rosybrown;
+    background-color: #0b2340;
     font-size: 24px;
     color: whitesmoke;
+    padding: 8px;
+}
+
+.header-links{
+    font-size: 20px;
+    padding-right: 24px;    
 }
 
 .big-header{
@@ -35,12 +56,24 @@ button{
     background-color:#1F2937 ;
     color: whitesmoke;
     justify-content: space-around;
+
+}
+
+.bigtext{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#small-headertext{
+    font-size: 18px;
+    color: whitesmoke
 }
 
 .left-header{
     display: flex;
     flex-direction: column;
     max-width: 800px;
+    justify-content: center;
 }
 
 .right-header{
@@ -49,46 +82,86 @@ button{
 
 .infoboxes{
     display: flex;
+    flex: 1;
     flex-direction: column;
-    background-color: red;
+    background-color: white;
+    padding: 18px;
 }
 
 .infobox-header{
     display: flex;
     justify-content: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
 }
 
 .boxes{
     display: flex;
-    background-color: green;
-    border: aqua;
     border-width: 5px;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 128px;
 }
 
 .box{
-    width: 50px;
-    height: 50px;
-    background-color: blue;
-    border-style: solid;
-    border-color: aqua;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
     border-width: 5px;
+    width: 120px;
+    text-align: center;
 }
+
+.box img{
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3882F6;
+    width: 100px;
+    height: auto;
+}
+
 
 .quotebox{
     display: flex;
     flex: 1;
-    background-color: bisque;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding-left: 512px;
+    padding-right: 512px;
+    font-size: 36px;
+    color: #1F2937;
 }
 
 .actionbox{
     display: flex;
     flex: 1;
-    background-color: lightcyan;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    
+}
+
+
+
+.actiondiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+    background-color: #3882F6;;
+    border-radius: 15px;
+    color: white;
+    padding-left: 64px;
+    padding-right: 64px;
 }
 
 .footer{
     display: flex;
-    background-color: gray;
-    color: wheat;
+    background-color: #1F2937;
+    color: lightgray;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
 }
