@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+}
+
+#husky{
+    width: 400px;
+    height: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#1F2937 ;
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+.big-header{
+    display: flex;
+    flex-direction: row;
+    background-color:#1F2937 ;
+    color: whitesmoke;
+    justify-content: space-around;
+}
+
+.left-header{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+.right-header{
+    display: flex;
+}
+
+.infoboxes{
+    display: flex;
+    flex-direction: column;
+    background-color:#1F2937 ;
+}
